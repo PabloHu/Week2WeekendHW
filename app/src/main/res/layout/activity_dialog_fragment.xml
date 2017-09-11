@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.week2weekendhw.DialogFragmentActivity">
+
+    <Button
+        android:text="3 secs"
+        android:id="@+id/showCustomFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicking"/>
+    <Button
+        android:text="Default Dialog"
+        android:id="@+id/showDefaultDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicking"/>
+    <Button
+        android:text="Custom Dialog"
+        android:id="@+id/showCustomDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicking"/>
+    <Button
+        android:text="List Options Dialog"
+        android:id="@+id/showListOptionsDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicking"/>
+    <Button
+        android:text="Add Notification "
+        android:id="@+id/addNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicking"/>
+    <Button
+        android:text="Send MSG "
+        android:id="@+id/sendMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicking"/>
+</LinearLayout>

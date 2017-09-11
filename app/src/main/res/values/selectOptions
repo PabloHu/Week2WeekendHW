@@ -1,0 +1,17 @@
+<resources>
+    <string-array name="animalsSelection">
+        <item>Cow</item>
+        <item>Elephants</item>
+        <item>Owl</item>
+        <item>Ducks</item>
+        <item>Chicken</item>
+        <item>Squirrel</item>
+        <item>Eagle</item>
+        <item>Hawk</item>
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Zebra</item>
+        <item>Ducks</item>
+
+    </string-array>
+    </resources>
